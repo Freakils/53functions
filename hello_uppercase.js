@@ -1,6 +1,6 @@
-module.exports = function(name){
-  if(name === undefined){
-  return "HELLO!";
+module.exports = function(name) {
+  if (name === undefined) {
+    return "HELLO!";
   }
-  return  "Hello, " + name.toUpperCase() + "!";
+  return "Hello, " + name.toUpperCase() + "!";
 };
