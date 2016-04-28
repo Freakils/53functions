@@ -6,8 +6,8 @@ describe("upper", function() {
 
   it("should uppercase 'ZEBRAS' ", function() {
     //TODO: call your function and use assert to check the result
-    var result = upper("zebras");
-    assert.equal(result, "ZEBRAS");
+    // var result = upper("zebras");
+    assert.equal(upper("zebras"), "ZEBRAS");
   });
 
 });
